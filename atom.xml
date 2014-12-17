@@ -4,7 +4,7 @@
   <title><![CDATA[Liang's Blog]]></title>
   <link href="http://lcsoft2009.github.io/atom.xml" rel="self"/>
   <link href="http://lcsoft2009.github.io/"/>
-  <updated>2014-12-17T23:36:06+09:00</updated>
+  <updated>2014-12-17T23:50:36+09:00</updated>
   <id>http://lcsoft2009.github.io/</id>
   <author>
     <name><![CDATA[kiyoto]]></name>
@@ -34,7 +34,7 @@
 f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\left( x\right)}{\Delta x}
 </script>
 
-<p>{ % coderay [lang:lang] [linenos:true|false(default)] [title] [url] [link text] % }
+<p>{ % coderay [lang:lang] [linenos:true] [title] [url] [link text] % }
 for(int i;i&lt;10;i++)
 {
 i++;
