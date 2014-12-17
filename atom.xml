@@ -4,7 +4,7 @@
   <title><![CDATA[Liang's Blog]]></title>
   <link href="http://lcsoft2009.github.io/atom.xml" rel="self"/>
   <link href="http://lcsoft2009.github.io/"/>
-  <updated>2014-12-17T22:30:15+09:00</updated>
+  <updated>2014-12-17T22:32:55+09:00</updated>
   <id>http://lcsoft2009.github.io/</id>
   <author>
     <name><![CDATA[kiyoto]]></name>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[第二篇文章]]></title>
-    <link href="http://lcsoft2009.github.io/blog/20141217/di-er-pian-wen-zhang.html/"/>
+    <link href="http://lcsoft2009.github.io/blog/20141217/di-er-pian-wen-zhang.html"/>
     <updated>2014-12-17T21:32:48+09:00</updated>
     <id>http://lcsoft2009.github.io/blog/20141217/di-er-pian-wen-zhang</id>
     <content type="html"><![CDATA[
@@ -24,7 +24,7 @@
   
   <entry>
     <title type="html"><![CDATA[第一篇文章]]></title>
-    <link href="http://lcsoft2009.github.io/blog/20141217/di-%5B%3F%5D-pian-wen-zhang.html/"/>
+    <link href="http://lcsoft2009.github.io/blog/20141217/di-%5B%3F%5D-pian-wen-zhang.html"/>
     <updated>2014-12-17T21:26:52+09:00</updated>
     <id>http://lcsoft2009.github.io/blog/20141217/di-[?]-pian-wen-zhang</id>
     <content type="html"><![CDATA[<h1 id="hello">Hello</h1>
