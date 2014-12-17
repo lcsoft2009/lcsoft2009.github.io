@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://lcsoft2009.github.io/sitemap.xml 
