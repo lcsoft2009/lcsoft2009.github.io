@@ -4,7 +4,7 @@
   <title><![CDATA[Liang's Blog]]></title>
   <link href="http://lcsoft2009.github.io/atom.xml" rel="self"/>
   <link href="http://lcsoft2009.github.io/"/>
-  <updated>2014-12-17T22:29:02+09:00</updated>
+  <updated>2014-12-17T22:30:15+09:00</updated>
   <id>http://lcsoft2009.github.io/</id>
   <author>
     <name><![CDATA[kiyoto]]></name>
@@ -28,10 +28,11 @@
     <updated>2014-12-17T21:26:52+09:00</updated>
     <id>http://lcsoft2009.github.io/blog/20141217/di-[?]-pian-wen-zhang</id>
     <content type="html"><![CDATA[<h1 id="hello">Hello</h1>
-<p>##hello
-<script type="math/tex">
+<p>##hello</p>
+
+<script type="math/tex; mode=display">
 f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\left( x\right)}{\Delta x}
-</script></p>
+</script>
 ]]></content>
   </entry>
   
