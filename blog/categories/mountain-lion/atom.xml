@@ -4,7 +4,7 @@
   <title><![CDATA[分类：mountain Lion | Liang's Blog]]></title>
   <link href="http://lcsoft2009.github.io/blog/categories/mountain-lion/atom.xml" rel="self"/>
   <link href="http://lcsoft2009.github.io/"/>
-  <updated>2014-12-18T17:13:16+09:00</updated>
+  <updated>2014-12-18T17:15:05+09:00</updated>
   <id>http://lcsoft2009.github.io/</id>
   <author>
     <name><![CDATA[kiyoto]]></name>
@@ -19,6 +19,12 @@
     <updated>2014-12-18T12:14:22+09:00</updated>
     <id>http://lcsoft2009.github.io/blog/di-san-pian-wen-zhang</id>
     <content type="html"><![CDATA[<h2 id="a-little-intro">a little intro</h2>
+<ul id="markdown-toc">
+  <li><a href="#a-little-intro">a little intro</a>    <ul>
+      <li><a href="#octopress-and-my-current-workflow">Octopress and my current workflow</a></li>
+    </ul>
+  </li>
+</ul>
 <p>I’m an infrequent blogger, I find I can’t write routinely and my previous attempts at starting blogs all failed miserablyƒ. However there are many personal sites out there that I admire with some great content which always encourages me to try again - so here goes, another attempt starting in 2013. This time due to the platform, workflow and Apps I’m using I feel I may be a little bit more creative.</p>
 
 <p>&#8220;` cpp C++ for loop http://www.baidu.com 转到百度 
