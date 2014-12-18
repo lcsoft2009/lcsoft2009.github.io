@@ -4,7 +4,7 @@
   <title><![CDATA[分类：dropbox | Liang's Blog]]></title>
   <link href="http://lcsoft2009.github.io/blog/categories/dropbox/atom.xml" rel="self"/>
   <link href="http://lcsoft2009.github.io/"/>
-  <updated>2014-12-18T16:32:32+09:00</updated>
+  <updated>2014-12-18T16:54:37+09:00</updated>
   <id>http://lcsoft2009.github.io/</id>
   <author>
     <name><![CDATA[kiyoto]]></name>
@@ -74,7 +74,7 @@ The default Octopress theme for me is too ugly and is found on so many other Oct
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Starting with Octopress]]></title>
+    <title type="html"><![CDATA[Starting With Octopress]]></title>
     <link href="http://lcsoft2009.github.io/blog/di-%5B%3F%5D-pian-wen-zhang.html"/>
     <updated>2013-01-20T16:33:00+09:00</updated>
     <id>http://lcsoft2009.github.io/blog/di-[?]-pian-wen-zhang</id>

@@ -1,131 +1,97 @@
 
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
-	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
-	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<meta charset="utf-8">
-	<title>第三篇文章  | Liang&#8217;s Blog</title>
+  <meta charset="utf-8">
+  <title>第三篇文章 - Liang&#8217;s Blog</title>
+  <meta name="author" content="kiyoto">
 
-<meta name="author" content="kiyoto"> 
+  
+  <meta name="description" content="My personal experience on getting started with Octopress on Mac OSX, customising themes and using Github Pages & Dropbox">
+  <meta name="keywords" content="octopress, Mac OSX, dropbox, github pages, themes, customise, customize, customizing, customising, macbook, ia writer, markdown">
 
-<meta name="description" content="My personal experience on getting started with Octopress on Mac OSX, customising themes and using Github Pages & Dropbox"> <meta name="keywords" content="octopress, Mac OSX, dropbox, github pages, themes, customise, customize, customizing, customising, macbook, ia writer, markdown">
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <link rel="canonical" href="http://lcsoft2009.github.io/blog/di-san-pian-wen-zhang.html">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Liang's Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
-	<link href="/atom.xml" rel="alternate" title="Liang's Blog" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.png" rel="shortcut icon">
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
+  
 
-<script language="Javascript" type="text/javascript">
-$(document).ready(
-  function() {
-    (function($) {
-      $(".fancybox[data-content-id]").each(function() {
-        this.href = $(this).data('content-id');
-      });
-      $(".fancybox").fancybox({
-        beforeLoad: function() {
-          var el, 
-              id = $(this.element).data('title-id');
-
-          if (id) {
-            el = $('#' + id);
-
-            if (el.length) {
-              this.title = el.html();
-            }
-          }
-          if ($(this).data('content')) {
-            this.content = $(this).data('content');
-          }
-        },
-        helpers: {
-          title: {
-            type: 'inside'
-          }
-        }
-      });
-    })(jQuery);
-  }
-);
-</script>
-
-	<!-- MathJax -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 
-
-
-<body>
-	<header id="header" class="inner"><h1><a href="/">Liang&#8217;s Blog</a></h1>
-<h4>A blogging for life.</h4>
-<nav id="main-nav"><ul>
-	<li><a href="/">Blog</a></li>
-	<li><a href="/archives">About</a></li>
-	<li><a href="/archives">Portfolio</a></li>
-	<li><a href="/archives">Archive</a></li>
-</ul>
-</nav>
-<nav id="mobile-nav">
-	<div class="alignleft menu">
-		<a class="button">Menu</a>
-		<div class="container"><ul>
-	<li><a href="/">Blog</a></li>
-	<li><a href="/archives">About</a></li>
-	<li><a href="/archives">Portfolio</a></li>
-	<li><a href="/archives">Archive</a></li>
-</ul>
-</div>
-	</div>
-	<div class="alignright search">
-		<a class="button"></a>
-		<div class="container">
-			<form action="https://www.google.com/search" method="get">
-				<input type="text" name="q" results="0">
-				<input type="hidden" name="q" value="site:lcsoft2009.github.io">
-			</form>
-		</div>
-	</div>
-</nav>
-
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Liang&#8217;s Blog</a></h1>
+  
+    <h2>A blogging for life.</h2>
+  
+</hgroup>
 
 </header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:lcsoft2009.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
 
-	<div id="content" class="inner"><article class="post">
-	<h2 class="title">第三篇文章</h2>
-	<div class="entry-content"><h2 id="a-little-intro">a little intro</h2>
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">第三篇文章</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-18T12:14:22+09:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2 id="a-little-intro">a little intro</h2>
 <p>I’m an infrequent blogger, I find I can’t write routinely and my previous attempts at starting blogs all failed miserablyƒ. However there are many personal sites out there that I admire with some great content which always encourages me to try again - so here goes, another attempt starting in 2013. This time due to the platform, workflow and Apps I’m using I feel I may be a little bit more creative.</p>
 
 <div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>C++ for loop</span><a href="http://www.baidu.com">转到百度 </a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
@@ -196,8 +162,14 @@ The default Octopress theme for me is too ugly and is found on so many other Oct
 </div>
 
 
-<div class="meta">
-	<div class="date">
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">kiyoto</span></span>
+
+      
 
 
 
@@ -209,48 +181,162 @@ The default Octopress theme for me is too ugly and is found on so many other Oct
   
 
 
-<time datetime="2014-12-18T12:14:22+09:00" pubdate data-updated="true"></time></div>
-	
+<time datetime="2014-12-18T12:14:22+09:00" pubdate data-updated="true"></time>
+      
 
-<div class="tags">
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/dropbox/'>dropbox</a>, <a class='category' href='/blog/categories/mountain-lion/'>mountain lion</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>
+  
+</span>
 
-	<a class='category' href='/blog/categories/dropbox/'>dropbox</a>, <a class='category' href='/blog/categories/mountain-lion/'>mountain lion</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://lcsoft2009.github.io/blog/di-san-pian-wen-zhang.html" data-via="lcsoft2009@gmail.com" data-counturl="http://lcsoft2009.github.io/blog/di-san-pian-wen-zhang.html" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/di-er-pian-wen-zhang.html" title="Previous Post: 第二篇文章">&laquo; 第二篇文章</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
 </div>
 
+<aside class="sidebar">
+  
+    
+<section>
+	<h1>Weather</h1>
+	<div id="openweathermap" style="margin-top:0.5em;"></div>
+	<script type="text/javascript">
+		
+		var openweathermap_timestamp = Math.round(new Date().getTime() / 1000);
+		
+		function getWeatherData() {
+			
+			$.ajax({
+				 url: "http://api.openweathermap.org/data/2.5/weather?mode=json&q='Nagoya-shi, JP'&units=metric&lang=zh_cn&APPID=d40a77c94b3a563666935eeb1e99f662"
+				,type: 'GET'
+				,cache: false
+				,dataType: 'jsonp'
+				,error: function (err) { $('#openweathermap').addClass('error');  }
+				,success: function(data) {
+					
+					localStorage.setItem("openweathermap_data", JSON.stringify(data));
+					displayData();
+				}
+			})
+			
+			localStorage.setItem("openweathermap_timestamp", openweathermap_timestamp + 3600);
+		}
+		
+		function displayData() {
+			
+			var data = JSON.parse(localStorage.getItem('openweathermap_data'));
+			var units = 
+			$('#openweathermap').html('<img class="left" width="50" height="50" src="http://openweathermap.org/img/w/'+data.weather[0]['icon']+'.png" /><p><strong>' + data.name + '</strong> (' + parseFloat(data.main['temp']).toFixed(1) + '°' + ('metric'=='metric'?'C':'F') +')<br>' + data.weather[0]['description'] + '</p>');
+		}
+		
+		$(function(){
+			
+			if (localStorage) {
+				
+				if( typeof localStorage.getItem('openweathermap_timestamp') == null || openweathermap_timestamp > localStorage.getItem('openweathermap_timestamp')) {
+					
+					getWeatherData()
+				}
+				else {
+					
+					displayData();
+				}
+			}
+			else {
+				container.html('No data');
+			}
+		});
+	</script>
+</section>
+<section>
+  <h1>About Me</h1>
+  <p>A little something about me.</p>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/di-san-pian-wen-zhang.html">第三篇文章</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/di-er-pian-wen-zhang.html">第二篇文章</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/di-%5B%3F%5D-pian-wen-zhang.html">Starting With Octopress</a>
+      </li>
+    
+  </ul>
+</section>
 
-	
-</div></article>
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("lcsoft2009@gmail.com", , );
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <p>Follow <a href="http://twitter.com/lcsoft2009@gmail.com">@lcsoft2009@gmail.com</a></p>
+  
+</section>
 
-	<div class="share">
-	<div class="addthis_toolbox addthis_default_style ">
-	
-	
-	<a class="addthis_button_tweet"></a>
-	
-	
-<!---	<a class="addthis_counter addthis_pill_style"></a> &#8212;>
-	</div>
-  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
-</div>
 
 
-</div>
-	<footer id="footer" class="inner">Copyright &copy; 2014
+  
+</aside>
 
-    kiyoto
 
-<br>
-Powered by Octopress.
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - <a href="http://www.lijinma.com" target="_blank">kiyoto</a> -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
 </footer>
-	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-	$('.fancybox').fancybox();
-})(jQuery);
-</script> <!-- Delete or comment this line to disable Fancybox -->
+  
 
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
 
 
 
