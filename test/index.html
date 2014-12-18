@@ -134,7 +134,59 @@ $(document).ready(
 <aside class="sidebar">                
                              
     WTF
-    <section>
+    
+<section>
+	<h1>Weather</h1>
+	<div id="openweathermap" style="margin-top:0.5em;"></div>
+	<script type="text/javascript">
+		
+		var openweathermap_timestamp = Math.round(new Date().getTime() / 1000);
+		
+		function getWeatherData() {
+			
+			$.ajax({
+				 url: "http://api.openweathermap.org/data/2.5/weather?mode=json&q='Los Angeles'&units=imperial&lang=en&APPID=d40a77c94b3a563666935eeb1e99f662"
+				,type: 'GET'
+				,cache: false
+				,dataType: 'jsonp'
+				,error: function (err) { $('#openweathermap').addClass('error');  }
+				,success: function(data) {
+					
+					localStorage.setItem("openweathermap_data", JSON.stringify(data));
+					displayData();
+				}
+			})
+			
+			localStorage.setItem("openweathermap_timestamp", openweathermap_timestamp + 3600);
+		}
+		
+		function displayData() {
+			
+			var data = JSON.parse(localStorage.getItem('openweathermap_data'));
+			var units = 
+			$('#openweathermap').html('<img class="left" width="50" height="50" src="http://openweathermap.org/img/w/'+data.weather[0]['icon']+'.png" /><p><strong>' + data.name + '</strong> (' + parseFloat(data.main['temp']).toFixed(1) + '°' + ('imperial'=='metric'?'C':'F') +')<br>' + data.weather[0]['description'] + '</p>');
+		}
+		
+		$(function(){
+			
+			if (localStorage) {
+				
+				if( typeof localStorage.getItem('openweathermap_timestamp') == null || openweathermap_timestamp > localStorage.getItem('openweathermap_timestamp')) {
+					
+					getWeatherData()
+				}
+				else {
+					
+					displayData();
+				}
+			}
+			else {
+				container.html('No data');
+			}
+		});
+	</script>
+</section>
+<section>
   <h1>About Me</h1>
   <p>A little something about me.</p>
 </section>
