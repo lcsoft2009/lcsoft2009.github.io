@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[分类：城市 | Liang's Blog]]></title>
+  <link href="http://lcsoft2009.github.io/blog/categories/cheng-shi/atom.xml" rel="self"/>
+  <link href="http://lcsoft2009.github.io/"/>
+  <updated>2014-12-19T15:03:20+09:00</updated>
+  <id>http://lcsoft2009.github.io/</id>
+  <author>
+    <name><![CDATA[kiyoto]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[大连之城]]></title>
+    <link href="http://lcsoft2009.github.io/blog/da-lian-zhi-cheng.html"/>
+    <updated>2014-12-19T15:01:53+09:00</updated>
+    <id>http://lcsoft2009.github.io/blog/da-lian-zhi-cheng</id>
+    <content type="html"><![CDATA[<p>＃ 大连之城</p>
+
+<p>大连是一座城，山城，海城，时尚浪漫之城。
+与大连结缘，始于我的父亲。父亲1985年开始两年间在大连旅顺口区当兵，
+幼时的我便一次次从父亲的手绘本中寻找大连的影子。
+ 于是，2008年9月，我也来到了大连。</p>
+]]></content>
+  </entry>
+  
+</feed>
