@@ -4,7 +4,7 @@
   <title><![CDATA[Liang's Blog]]></title>
   <link href="http://lcsoft2009.github.io/atom.xml" rel="self"/>
   <link href="http://lcsoft2009.github.io/"/>
-  <updated>2014-12-19T15:14:13+09:00</updated>
+  <updated>2014-12-19T15:23:38+09:00</updated>
   <id>http://lcsoft2009.github.io/</id>
   <author>
     <name><![CDATA[kiyoto]]></name>
@@ -45,7 +45,8 @@ Like, seriously, a <em>LOT</em> of text</strong></p>
 
 <h4 id="links-and-email">Links and Email</h4>
 
-<p>An email <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#120;&#097;&#109;&#112;&#108;&#101;&#064;&#101;&#120;&#097;&#109;&#112;&#108;&#101;&#046;&#099;&#111;&#109;">&#101;&#120;&#097;&#109;&#112;&#108;&#101;&#064;&#101;&#120;&#097;&#109;&#112;&#108;&#101;&#046;&#099;&#111;&#109;</a> link.</p>
+<p>An email <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#120;&#097;&#109;&#112;&#108;&#101;&#064;&#101;&#120;&#097;&#109;&#112;&#108;&#101;&#046;&#099;&#111;&#109;">&#101;&#120;&#097;&#109;&#112;&#108;&#101;&#064;&#101;&#120;&#097;&#109;&#112;&#108;&#101;&#046;&#099;&#111;&#109;</a> link.
+<!--more--></p>
 
 <p>Simple inline link <a href="http://chenluois.com">http://chenluois.com</a>, another inline link <a href="http://25.io/smaller/">Smaller</a>, one more inline link with title <a href="http://resizesafari.com" title="a Safari extension">Resize</a>.</p>
 
